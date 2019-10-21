@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 1920px;
+}
+
+#banner {
+    background: linear-gradient(0deg,rgba(75, 202, 255, 0.1),rgba(75, 202, 255, 0.1)), url('../img/background.png') no-repeat center center fixed;
+    background-size: cover;
+    /* filter: grayscale(100%); */
+    height: 800px;
+}
+
+#banner nav {
+    height: 150px;
+    background-color: black;
+    display: flex;
+    padding: 0 370px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-items: center;
+}
+
+#brand {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 30px;
+    align-self: center;
+}
+
+#brand span {
+    color: rgb(75, 202, 255);
+}
+
+#banner nav ul {
+    display: flex;
+    list-style: none;
+    align-self: center;
+}
+
+#banner nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 6px 15px;
+    margin-right: 20px;
+}
+
+#banner nav ul a:hover {
+    color: rgb(75, 202, 255);
+    border: 1px solid rgb(75, 202, 255);
+}
+
+#quote p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 42px;
+    font-weight: 300;
+    color: #FFF;
+}
+
+#quote span {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 50px;
+}
+
+#quote {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+
+#services {
+    height: 405px;
+    background-color: rgb(75, 202, 255);
+    color: #FFF;
+    padding: 0 370px;
+}
+
+#services header {
+    width: 100%;
+}
+
+#services header span {
+    border-bottom: 2px solid #FFF;
+}
+
+#services h1 {
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+#services img {
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.usp {
+    margin: 10px;
+    width: 270px;
+    font-size: 12px;
+}
+
+.usp:first-child {
+    margin-left: none;
+}
+
+.usp:last-child {
+    margin-right: none;
+}
+
+.usp header h2 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.usp p {
+    margin-top: 10px;
+}
+
+#default {
+    padding: 0 370px;
+    height: 580px;
+    color: #FFF;
+    background-color: #515f67;
+    display: flex;
+    justify-content: space-between;
+}
+
+#post {
+    width: 480px;
+    font-size: 14px;
+    align-self: center;
+}
+
+#post h2 {
+    font-weight: 400;
+    font-size: 30px;
+    padding: 0 25px;
+}
+
+#post p {
+    margin-top: 50px;
+}
+
+#block {
+    width: 35px;
+    border-bottom: 2px solid #FFF;
+    height: 5px;
+    margin-top: 85px;
+}
+
+#video {
+    align-self: center;
+}
